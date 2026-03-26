@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="el">
+  <head>
+
+    <title>Kaliakatsos Xrhstos | website portofolio</title>
+
+    <!-- Metadata
+        ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="my website">
+    <meta name="author" content="XK">
+    <meta name="keywords" content="kaliakatsos">
+
+    <!-- Bootstrap
+        ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- css and js links
+        ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- Stylesheet internal
+    ================================================== -->
+    <style type="text/css">
+      .portfolio-item .hover-bg {
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+      }
+      body{
+        font-family: "Comic_Relief", sans-serif;
+        background-color: #ffeabc;
+      } 
+      @font-face {
+            font-family: "Comic_Relief";
+            src: url("fonts/Comic_Relief/Comic_Relief-Regular.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+      header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 400px;
+      }
+
+      #portfolio {
+            background-color: #ebc3fe;
+      }
+      .navbar-custom {
+            background-color: #fafec3;
+      }
+      .navbar-custom a {
+            color: #69fd92;
+      }
+    </style>
+    
+  </head>
+
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Header
+        ================================================== -->
+    <header id="header">
+      <div class="intro">
+        <div class="container">
+          <div class="row">
+            <div class="intro-text">
+              <h1>Χ<span style="text-transform: lowercase;">ρήστος</span>&nbsp;Κ<span style="text-transform: lowercase;">αλιακάτσος</span></h1>
+              <hr>
+              <p>Φωτογράφος</p>
+              <a href="#about" class="btn btn-default btn-lg page-scroll"><span style="text-transform: lowercase;">περισσότερα</span></a> </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation
+    ================================================== -->
+    <div id="nav">
+      <nav class="navbar navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+          </div>
+          
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-main-collapse">
+            <ul class="nav navbar-nav">
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+              <li class="hidden"> <a href="#page-top"></a> </li>
+              <li><a class="page-scroll" href="#page-top" style="margin-left:-0.5em;" id="navb">ΑΡΧΙΚΗ</a> </li>
+              <li> <a class="page-scroll" href="#about" style="margin-left:-0.5em;" id="navb">ΓΙΑ ΕΜΕΝΑ</a> </li>
+              <li> <a class="page-scroll" href="#portfolio" style="margin-left:-0.5em;" id="navb">ΕΡΓΑ ΜΟΥ</a> </li>
+              <li> <a class="page-scroll" href="#contact" style="margin-left:-0.5em;" id="navb">ΕΠΙΚΟΙΝΩΝΙΑ</a> </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- About Section
+    ================================================== -->
+    <div id="about">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>Γ<span style="text-transform: lowercase;">ια εμένα</span></h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive" alt="" title=""></div>
+          <div class="col-md-8 col-md-offset-2">
+            <div class="about-text">
+              <p>Ονομάζομαι Χρήστος Καλακάτσος και γεννήθηκα στην Άρτα. Είμαι φωτογράφος και απόφοιτος του Πανεπιστημίου Δυτικής Αττικής, στο Τμήμα Φωτογραφίας και Οπτικοακουστικών Τεχνών. Ασχολούμαι με τη φωτογραφία, το photo και video editing, καθώς και με τη χρήση 3D software, με στόχο τη δημιουργική οπτική αφήγηση.</p>
+              <a href="#portfolio" class="btn btn-default btn-lg page-scroll">ΕΡΓΑ ΜΟΥ</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Section
+    ================================================== -->
+    <div id="portfolio">
+      <div class="container">
+        <div class="section-title text-center center">
+          <h2>ΕΡΓΑ ΜΟΥ</h2>
+          <hr>
+        </div>
+        <div class="categories">
+          <ul class="cat">
+            <li>
+              <ol class="type">
+                <li><a href="#" data-filter="*" class="active">Όλα</a></li>
+                <li><a href="#" data-filter=".photography">Φωτογραφία</a></li>
+                <li><a href="#" data-filter=".video">Βίντεο</a></li>
+              </ol>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+        <div class="row">
+          <div class="portfolio-items">
+            <!-- Λινκ προς γκαλερί φωτογραφιών -->
+            <div class="col-sm-6 col-md-3 col-lg-3 photography">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="gallery-p1.html" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Ιλισός</h4>
+                  </div>
+                  <img src="galleries/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 photography">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="gallery-p6.html" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Αρχιτεκτονική</h4>
+                  </div>
+                  <img src="galleries/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3 col-lg-3 photography">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="gallery-p7.html" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>Διαφημιστική</h4>
+                  </div>
+                  <img src="galleries/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+            </div>
+            <!-- Λινκ προς γκαλερί βίντεο -->
+            <div class="col-sm-6 col-md-3 col-lg-3 video">
+              <div class="portfolio-item">
+                <div class="hover-bg"> <a href="gallery-v2.html" title="Project Title" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                    <h4>HOMERUN</h4>
+                  </div>
+                  <img src="galleries/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section
+    ================================================== -->
+    <div id="contact" class="text-center">
+      <div class="container">
+        <div class="section-title center">
+          <h2>Ε<span style="text-transform:lowercase;">πικοινωνία</span></h2>
+          <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="contact">
+            <ul>
+              <li><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.9096772499515!2d23.672613150924196!3d38.00256720669433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a13ba48d426f81%3A0xbe82f5519cbcb53d!2zzqDOsc69zrXPgM65z4PPhM6uzrzOuc6_IM6Uz4XPhM65zrrOrs-CIM6Rz4TPhM65zrrOrs-C!5e0!3m2!1sel!2sgr!4v1670204651260!5m2!1sel!2sgr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p><br></li>
+              <li><p><br></p></li>
+              <li><p><span class="material-symbols-outlined">mail</span></p><p>Αγίου Σπυρίδωνος 28, 12243 Αιγάλεω</p><br></li>
+              <li><p><span class="material-symbols-outlined">call</span></p><p><a href="tel:+306989832567">(+30) 6989832567</a></p><br></li>
+              <li><p><span class="material-symbols-outlined">alternate_email</span></p><p><a href="maito:phaa22677027@uniwa.gr">phaa22677027@uniwa.gr</a></p></li>
+            </ul>
+          </div>
+          <div class="social">
+            <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100084885827475&locale=el_GR" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
+              <li><a href="https://www.tiktok.com/@xrhstos_kalias?_r=1&_t=ZN-930hk31T1DH" target="_blank"><i class="fab fa-tiktok fa-2x"></i></i></a></li>
+              <li><a href="https://www.instagram.com/xrhstos_kalia/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
+              <li><a href="https://x.com/X_BOTS__" target="_blank"><b style='font-size:30px'><!-- hex code for the X icon -->&#120143;</b></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section
+    ================================================== -->
+    <div id="footer">
+      <div class="container text-center">
+        <div class="fnav" style="text-align:center;">
+          <p>&copy; Photos by <a href="index.html" rel="nofollow">Kaliakatsos Christos</a></p>
+          <p>&copy; Magnum. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS scripts
+    ================================================== -->
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.js"></script> 
+    <script type="text/javascript" src="js/SmoothScroll.js"></script> 
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+    <script type="text/javascript" src="js/jquery.isotope.js"></script> 
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
